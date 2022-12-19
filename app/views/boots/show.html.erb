@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @boot.name %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @boot.content %>
+</p>
+
+<%= link_to 'Edit', edit_boot_path(@boot) %> |
+<%= link_to 'Back', boots_path %>
